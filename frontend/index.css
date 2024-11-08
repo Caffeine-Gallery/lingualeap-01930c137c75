@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#resultSection {
+    border-top: 1px solid #dee2e6;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.spinner-border {
+    margin-right: 8px;
+}
+
+#translatedText {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+#speakBtn {
+    transition: all 0.2s ease;
+}
+
+#speakBtn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card {
+        margin: 10px;
+    }
+}
